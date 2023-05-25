@@ -1,8 +1,9 @@
 import React from 'react'
+import Herosection from "@/app/components/Herosection";
 
 const page = () => {
   return (
-    <div>page</div>
+    <Herosection/>
   )
 }
 
