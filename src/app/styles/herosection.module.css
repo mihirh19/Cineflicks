@@ -52,24 +52,45 @@
 }
 
 /*waves effect */
-.custom-shape-divider-bottom-1681647578 {
+/*.custom-shape-divider-bottom-1681647578 {*/
+/*   position: absolute;*/
+/*   bottom: 0;*/
+/*   left: 0;*/
+/*   width: 100%;*/
+/*   overflow: hidden;*/
+/*   line-height: 0;*/
+/*}*/
+
+/*.custom-shape-divider-bottom-1681647578 svg {*/
+/*   position: relative;*/
+/*   display: block;*/
+/*   width: calc(100% + 1.3px);*/
+/*   height: 150px;*/
+/*}*/
+
+/*.custom-shape-divider-bottom-1681647578 .shape-fill {*/
+/*   fill: #FFFFFF;*/
+/*}*/
+
+.custom-shape-divider-bottom-1685111802 {
    position: absolute;
    bottom: 0;
    left: 0;
    width: 100%;
    overflow: hidden;
    line-height: 0;
+   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1681647578 svg {
+.custom-shape-divider-bottom-1685111802 svg {
    position: relative;
    display: block;
-   width: calc(100% + 1.3px);
-   height: 150px;
+   width: calc(109% + 1.3px);
+   height: 155px;
 }
 
-.custom-shape-divider-bottom-1681647578 .shape-fill {
-   fill: #FFFFFF;
+.custom-shape-divider-bottom-1685111802 .shape-fill {
+   fill: #000000;
 }
 
 
