@@ -2,7 +2,7 @@ import './globals.css'
 import { Mulish } from 'next/font/google'
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
-
+import { Analytics } from '@vercel/analytics/react';
 
 const mulish = Mulish({
     weight: ['300', '400', '500', '600', '700', '800', '900'],
@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
       <Header/>
       {children}
       <Footer/>
+      <Analytics />
       </body>
     </html>
   )
